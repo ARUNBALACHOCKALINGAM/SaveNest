@@ -65,7 +65,7 @@ const Sidebar = () => {
                     <Title title={"SpendTrend."} />
                     <ul className="space-y-2 font-medium text-primary mt-10">
                         {Items.map((Item) => (
-                            <ListItems key={Item.item} item={Item.item} Icon={Item.Icon} />
+                            <ListItems to={Item.item.replace(' ', '').toLowerCase()} key={Item.item} item={Item.item} Icon={Item.Icon} />
                         ))}
                     </ul>
                 </div>

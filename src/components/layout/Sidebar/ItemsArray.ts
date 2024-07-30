@@ -22,6 +22,6 @@ export const Items: Item[] = [
     },
     {
         Icon: FaRobot,
-        item: "Robot"
+        item: "Ai Chat"
     },
 ];

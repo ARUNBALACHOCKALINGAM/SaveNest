@@ -101,7 +101,7 @@ const BarChart = () => {
 
 
     return (
-        <Card className="bg-white rounded-none dark:bg-gray-800 mt-2 grow mx-auto lg:w-[60%]" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Card className="bg-white shadow-none rounded-none dark:bg-gray-800 mt-2 grow mx-auto lg:w-[60%]" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <CardHeader
                 floated={false}
                 shadow={false}

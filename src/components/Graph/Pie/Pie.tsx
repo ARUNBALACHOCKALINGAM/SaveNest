@@ -56,7 +56,7 @@ const pieChartConfig = {
 
 const PieChart = () => {
     return (
-        <Card className="bg-white rounded-none dark:bg-black mt-4 grow lg:mt-2 lg:ml-4" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Card className="bg-white shadow-none rounded-none dark:bg-black mt-4 grow lg:mt-2 lg:ml-4" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <CardHeader
                 floated={false}
                 shadow={false}
