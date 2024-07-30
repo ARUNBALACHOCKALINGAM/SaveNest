@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { ApexOptions } from 'apexcharts';
 
-interface Props {
-    screenwidth: number
-}
-
 const useConfigBar = ({ screenwidth }: any) => {
     // State for responsive font sizes and grid padding
     const [fontSize, setFontSize] = useState("14px");

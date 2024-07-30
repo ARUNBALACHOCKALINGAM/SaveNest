@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter, CardHeader, Typography } from "@material-tailwind/react"
+import { Card, CardBody, CardHeader, Typography } from "@material-tailwind/react"
 import { FaMoneyBill1Wave } from "react-icons/fa6";
 
 interface Props {

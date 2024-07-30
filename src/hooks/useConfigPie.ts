@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import { ApexOptions } from 'apexcharts';
 
-interface Props {
-    screenwidth: number;
-}
+
 
 const useConfigPie = ({ screenwidth }: any) => {
 
@@ -11,6 +9,7 @@ const useConfigPie = ({ screenwidth }: any) => {
     const [fontSize, setFontSize] = useState("14px");
     const [height, setHeight] = useState(280);
     const [gridPadding, setGridPadding] = useState({ top: 10, right: 10, bottom: 10, left: 10 });
+    console.log(gridPadding)
 
     // Function to determine font size and grid padding based on screen width
     const updateResponsiveStyles = () => {
@@ -49,7 +48,8 @@ const useConfigPie = ({ screenwidth }: any) => {
             labels: ["Food", "E-commerce", "Utilities", "Entertainment", "Others"],
             colors: ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF"], // Example colors
             legend: {
-                position: 'right',
+                position: 'right'
+
             },
             tooltip: {
                 theme: "dark",
@@ -70,7 +70,8 @@ const useConfigPie = ({ screenwidth }: any) => {
             },
             dataLabels: {
                 style: {
-                    fontSize: fontSize, // Responsive font size
+                    fontSize: fontSize,
+                    // Responsive font size
                 }
             }
         }

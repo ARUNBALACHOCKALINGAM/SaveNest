@@ -48,7 +48,7 @@ const LoanDetailsCard = ({ loanData, type }: any) => {
                 </div>
                 <hr className="w-[98%] mx-auto mt-4 border-white/40" />
                 <div className="mt-4 flex w-full">
-                    <ProgressBar totalAmount={loanData.amount} paidAmount={loanData.paidAmount} type={type} />
+                    <ProgressBar totalAmount={loanData.amount} paidAmount={loanData.paidAmount} />
                 </div>
                 <div
                     className={`mt-4 flex w-full text-xs lg:text-sm justify-end ${!isCollapsed && "py-2"} transition-max-height duration-500 ease-in-out overflow-hidden ${isCollapsed ? 'max-h-0' : 'max-h-96'

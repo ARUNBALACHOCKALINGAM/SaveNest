@@ -1,4 +1,4 @@
-import { ArrowDownIcon, ArrowRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
+import { ArrowDownIcon } from "@heroicons/react/24/outline";
 import BarChart from "../components/Graph/Bar/BarChart";
 import PieChart from "../components/Graph/Pie/Pie";
 import Welcome from "../components/Welcome/Welcome";

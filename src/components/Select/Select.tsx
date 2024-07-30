@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { setType } from "../../data/store/app";
-import { useState } from "react";
+
 
 const Select = () => {
     const dispatch = useDispatch();

@@ -1,5 +1,4 @@
 import { routerType } from "../abstraction/types/routerType";
-import BarChart from "../components/Graph/Bar/BarChart";
 import NotFound from "../components/NotFound/NotFound";
 import Dashboard from "./Dashboard";
 import Loans from "./Loans";

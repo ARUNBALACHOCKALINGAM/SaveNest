@@ -1,10 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Select from "../components/Select/Select";
-import Welcome from "../components/Welcome/Welcome";
-import { EyeIcon, WalletIcon } from "@heroicons/react/16/solid";
-import ProgressBar from "../components/ProgressBar/ProgressBar";
-import LoanDetailsCard from "../components/LoansSection/LoansDetailsCard";
-import LoansSection from "../components/LoansSection/LoansSection";
 import ExistingSection from "../components/LoansSection/ExistingSection";
 import RecommendationsSection from "../components/LoansSection/RecommendationsSection";
 import { useSelector } from "react-redux";
