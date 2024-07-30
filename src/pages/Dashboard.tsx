@@ -8,7 +8,7 @@ import CardComponent from "../components/Card/Card";
 const Dashboard = () => {
     return (
         <div className="flex flex-col mt-4 ">
-            <Welcome username="Arun" />
+            <Welcome username="User" />
             <hr className="w-[92%] mx-auto mt-4 border-primary/20 lg:w-[92%]" />
             <div className="relative flex flex-wrap justify-between items-center h-full">
                 <BarChart />

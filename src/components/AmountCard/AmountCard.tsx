@@ -2,7 +2,7 @@ import { EyeIcon, WalletIcon } from "@heroicons/react/24/outline";
 
 const AmountCard = () => {
     return (
-        <div className="hidden h-full ml-4 grow lg:w-[60%] xl:w-[40%] self-start flex-col lg:flex lg:w-[60%] lg:text-sm bg-secondary rounded-lg mt-2 lg:p-4 shadow-lg shadow-secondary/40">
+        <div className="hidden h-full ml-4 grow lg:w-[60%] xl:w-[40%] self-start flex-col lg:flex lg:w-[60%] lg:text-base bg-secondary rounded-lg mt-2 lg:p-4 shadow-lg shadow-secondary/40">
             <div className="w-full flex flex-row justify-between px-2">
                 <div>
                     <h1 className="text-primary/80">Current</h1>
